@@ -21,6 +21,7 @@ def getaverages():
 
 
 def main():
+    time.sleep(60)
     print("Trying to get Token!")
     token = os.getenv('BOT_TOKEN')
     if token is None:
